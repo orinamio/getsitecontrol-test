@@ -5,12 +5,62 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
 	</head>
+	<style>
+		@font-face {
+			font-family: "Soleil";
+			src: local("Soleil Regular"), local("Soleil-Regular"),
+				url(https://ori-sw.s3.us-east-2.amazonaws.com/fonts/Soleil-Regular.woff2);
+			font-weight: normal;
+			font-style: normal;
+		}
+
+		@font-face {
+			font-family: "Blacker Pro Dis Rg";
+			src: local("Blacker Pro Display Bold"), local("BlackerProDis-Bd"),
+				url(https://ori-sw.s3.us-east-2.amazonaws.com/fonts/BlackerProDis-Bd.woff2);
+			font-weight: bold;
+			font-style: normal;
+		}
+
+    h1 {
+      font-family: "Blacker Pro Dis Rg";
+    }
+
+		.disclaimer-section {
+			font-family: "Soleil";
+			background-color: white;
+			margin: 40px 5% 0;
+			padding-top: 40px;
+			padding-bottom: 40px;
+			border-top: 1px solid rgb(229, 229, 229);
+		}
+
+		@media screen and (min-width: 999px) {
+			.disclaimer-section {
+				margin-left: 20%;
+				margin-right: 20%;
+			}
+		}
+	</style>
 	<body>
-    getsitecontrol test
-		<script
+		<h1>getsitecontrol test</h1>
+
+		<section class="disclaimer-section">
+			<b>Important Disclosure:</b> The information provided in this blog is for
+			general informational purposes only. It should not be considered as a
+			personalized investment advice as this might not be suitable for everyone.
+			Each investor should do their due diligence before making any decision
+			that may impact his/her financial situation and should have an investment
+			strategy that reflects his risk profile and goals. All investing is
+			subject to risk, including the possible loss of the money invested.
+			Examples provided are for illustrative purposes. Past performance does not
+			guarantee future results. Data shared from third parties is obtained from
+			what are considered reliable sources however cannot be guaranteed.
+		</section>
+		<!-- <script
 			type="text/javascript"
 			async
 			src="//l.getsitecontrol.com/lw1zlm7k.js"
-		></script>
+		></script> -->
 	</body>
 </html>
